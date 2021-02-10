@@ -1,3 +1,8 @@
 module.exports = {
-    Eggs: require('./name')
+    add: require('./add'),
+    read: require('./read'),
+    delete: require('./delete'),
+    options: require('./options'),
+    commands: require('./options'),
+    burn: require('./burn')
 };
